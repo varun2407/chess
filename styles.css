@@ -9,6 +9,7 @@
 .square{
   height: 40px;
   width: 40px;
+  position: relative
 }
 
 .beige{
@@ -23,8 +24,19 @@
   height: 30px;
   width: 30px;
   margin: 5px;
+  position: relative;
+  z-index: -9;
 }
 
+path{
+  position: relative;
+  z-index:-10;
+}
+
+.piece{
+  position: relative;
+  z-index: 9 ;
+}
 .black{
   fill: black;
 }
