@@ -12,7 +12,7 @@
 }
 
 .beige{
-  background-color: beige;
+  background-color: rgb(149, 149, 122);
 }
 
 .brown{
@@ -23,4 +23,12 @@
   height: 30px;
   width: 30px;
   margin: 5px;
+}
+
+.black{
+  fill: black;
+}
+
+.white{
+  fill: white
 }
