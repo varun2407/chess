@@ -65,6 +65,7 @@ function dragOver(e){
 function dragDrop(e){
   e.stopPropagation()
 
-  // e.target.parentNode.append(draggedElement)
+  e.target.parentNode.append(draggedElement)
   e.target.append(draggedElement)
+  
 }
